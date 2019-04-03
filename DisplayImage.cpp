@@ -1,3 +1,13 @@
+/** @file
+ *  
+ *  Author: Amey Chavan (apchavan)
+ *
+ *  File description:-
+ *  This is short program to display an image and has capability to zoom up to that level where we can see each pixel of opened image separately.
+ *  We have to execute this program separately by each image passing path of image file as argument.
+ */
+
+
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 
