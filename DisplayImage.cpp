@@ -4,7 +4,7 @@
  *
  *  File description:-
  *  This is short program to display an image and has capability to zoom up to that level where we can see each pixel of opened image separately.
- *  We have to execute this program separately by each image passing path of image file as argument.
+ *  We have to execute this program separately for each image by passing path of the image file as argument.
  */
 
 
