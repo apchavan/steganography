@@ -9,7 +9,8 @@ DESTDIR :=
 SOURCES :=  MatImage.cc TextFile.cc util.cc Error.cc 
 OBJECTS := $(SOURCES:%.cc=$(ODIR)/%.o)
 
-LIBRARIES := gtkmm-2.4 opencv openssl	# Change version of 'gtkmm-x.x' with the latest installed, since version (2.4) may be different.
+# Change version of 'gtkmm-x.x' with the latest installed, since here's version (2.4) might be different.
+LIBRARIES := gtkmm-2.4 opencv openssl
 CC := g++
 CFLAGS := -O `pkg-config --cflags $(LIBRARIES)` -I $(HDIR) -std=c++11
 LFLAGS := -O `pkg-config --libs $(LIBRARIES)` -std=c++11
@@ -46,7 +47,4 @@ clean-exe:
 clean-obj: 
 	@echo " Cleaning the object files "
 	@rm -rf $(ODIR)
-	
-	
-	
 	
