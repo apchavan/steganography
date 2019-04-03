@@ -1,6 +1,6 @@
 # Steganography
 
-A simple command line project developed in C++ for encryption and decryption of text in a given image.
+*A simple command line project developed in C++ for encryption and decryption of text in a given image.*
 
 **System requirements:**
 - RAM:= 1GB or above
