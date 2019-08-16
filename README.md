@@ -8,7 +8,7 @@
 - Processor - Dual core or newer
 - Operating system - Any Linux based operating system (Developed and tested on Ubuntu 16.04 LTS 64-bit)
 
-**Dependency:**
+**Dependencies:**
 - C++(11 standard) with GCC (GNU Compiler Collection) version 7 or above
 - OpenCV, OpenSSL, gtkmm
 
